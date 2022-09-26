@@ -13,8 +13,8 @@ if (numeroUm == stringUm) {
         document.querySelector('.numeroUm').innerHTML = `As variáveis numeroUm (${numeroUm}) e stringUm ("${stringUm}") têm o mesmo valor e o mesmo tipo.`;
         console.log(`As variáveis numeroUm (${numeroUm}) e stringUm ("${stringUm}") têm o mesmo valor e o mesmo tipo.`);
     } else {
-        document.querySelector('.numeroUm').innerHTML = `As variáveis numeroUm (${numeroUm}) e stringUm ("${stringUm}") têm o mesmo valor, mas tipos diferentes.`;
-        console.log(`As variáveis numeroUm (${numeroUm}) e stringUm ("${stringUm}") têm o mesmo valor, mas tipos diferentes.`);
+        document.querySelector('.numeroUm').innerHTML = `As variáveis numeroUm (${numeroUm}) e stringUm ("${stringUm}") têm o mesmo valor, mas são de tipos diferentes.`;
+        console.log(`As variáveis numeroUm (${numeroUm}) e stringUm ("${stringUm}") têm o mesmo valor, mas são de tipos diferentes.`);
     }
 } else {
     document.querySelector('.numeroUm').innerHTML = `As variáveis numeroUm (${numeroUm}) e stringUm ("${stringUm}") não têm o mesmo valor.`;
@@ -27,8 +27,8 @@ if (numeroDez == stringDez) {
         document.querySelector('.numeroDez').innerHTML = `As variáveis numeroDez (${numeroDez}) e stringDez ("${stringDez}") têm o mesmo valor e o mesmo tipo.`;
         console.log(`As variáveis numeroDez (${numeroDez}) e stringDez ("${stringDez}") têm o mesmo valor e o mesmo tipo.`);
     } else {
-        document.querySelector('.numeroDez').innerHTML = `As variáveis numeroDez (${numeroDez}) e stringDez ("${stringDez}") têm o mesmo valor, mas tipos diferentes.`;
-        console.log(`As variáveis numeroDez (${numeroDez}) e stringDez ("${stringDez}") têm o mesmo valor, mas tipos diferentes.`);
+        document.querySelector('.numeroDez').innerHTML = `As variáveis numeroDez (${numeroDez}) e stringDez ("${stringDez}") têm o mesmo valor, mas são de tipos diferentes.`;
+        console.log(`As variáveis numeroDez (${numeroDez}) e stringDez ("${stringDez}") têm o mesmo valor, mas são de tipos diferentes.`);
     }
 } else {
     document.querySelector('.numeroDez').innerHTML = `As variáveis numeroDez (${numeroDez}) e stringDez ("${stringDez}") não têm o mesmo valor.`;
@@ -41,8 +41,8 @@ if (numeroTrinta == stringTrinta) {
         document.querySelector('.numeroTrinta').innerHTML = `As variáveis numeroTrinta (${numeroTrinta}) e stringTrinta ("${stringTrinta}") têm o mesmo valor e o mesmo tipo.`;
         console.log(`As variáveis numeroTrinta (${numeroTrinta}) e stringTrinta ("${stringTrinta}") têm o mesmo valor e o mesmo tipo.`);
     } else {
-        document.querySelector('.numeroTrinta').innerHTML = `As variáveis numeroTrinta (${numeroTrinta}) e stringTrinta ("${stringTrinta}") têm o mesmo valor, mas tipos diferentes.`;
-        console.log(`As variáveis numeroTrinta (${numeroTrinta}) e stringTrinta ("${stringTrinta}") têm o mesmo valor, mas tipos diferentes.`);
+        document.querySelector('.numeroTrinta').innerHTML = `As variáveis numeroTrinta (${numeroTrinta}) e stringTrinta ("${stringTrinta}") têm o mesmo valor, mas são de tipos diferentes.`;
+        console.log(`As variáveis numeroTrinta (${numeroTrinta}) e stringTrinta ("${stringTrinta}") têm o mesmo valor, mas são de tipos diferentes.`);
     }
 } else {
     document.querySelector('.numeroTrinta').innerHTML = `As variáveis numeroTrinta (${numeroTrinta}) e stringTrinta ("${stringTrinta}") não têm o mesmo valor.`;
