@@ -1,0 +1,56 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+    header {
+        background-color: #f0f0f0;
+        text-align: center;
+        margin: auto;
+        padding: 1em 0;
+    }
+
+    .titulo {
+         font-size: 1.8em;
+         font-weight: bolder;
+         margin-bottom: 0.3em;
+    }
+
+    .subtitulo {
+        font-size: 1.2em;
+        margin-bottom: 0.3em;
+        font-weight: bold;
+    }
+
+    .descricao {
+        font-size: 1.1em;
+        margin-bottom: 0.3em;
+        font-weight: bold;
+    }
+
+    .lista_dias {
+        margin-top: 1em;
+        padding: 0 0.5em;
+    }
+
+    .dia {
+        margin-bottom: 0.5em;
+    }
+
+
+/* Dia 1 - Operações Booleanas */
+    .titulo_conteudo {
+        font-size: 1.2em;
+        margin: 1em 0;
+        padding: 0 0.5em;
+    }
+
+    .subtitulo_conteudo {
+        margin-bottom: 1em;
+        padding: 0 0.5em;
+    }
+
+    .numero {
+        margin-bottom: 0.5em;
+        padding: 0 0.5em;
+    }
