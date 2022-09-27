@@ -14,35 +14,32 @@ function decisoes () {
     if (escolhaArea == 1) { //Front-End
         escolhaArea = 'Front-End';
         escolhaOutra = 'Back-End';
-        alert(`Você escolheu ${escolhaArea}.`);
         escolhaFront = prompt('Legal, você escolheu Front-End! Dentro desta área, você quer aprender React(1) ou Vue(2)?');
 
         if (escolhaFront == 1) {
             escolhaLinguagem = 'React';
-            alert(`Você escolheu ${escolhaLinguagem}.`);
         } else if (escolhaFront == 2) {
             escolhaLinguagem = 'Vue';
-            alert(`Você escolheu ${escolhaLinguagem}.`);
         } else {
             alert(respostaInvalida);
+            return;
         }
     } else if (escolhaArea == 2) { //Back-End
         escolhaArea = 'Back-End'
         escolhaOutra = 'Front-End';
-        alert(`Você escolheu ${escolhaArea}.`);
         escolhaBack = prompt('Legal, você escolheu Back-End! Dentro desta área, você quer aprender C#(1) ou Java(2)?');
 
         if (escolhaBack == 1) {
             escolhaLinguagem = 'C#';
-            alert(`Você escolheu ${escolhaLinguagem}.`);
         } else if (escolhaBack == 2) {
             escolhaLinguagem = 'Java';
-            alert(`Você escolheu ${escolhaLinguagem}.`);
         } else {
             alert(respostaInvalida);
+            return;
         }
     } else {
         alert(respostaInvalida);
+        return;
     }
     
     escolhaFuturo = prompt(`Então você quer aprender ${escolhaLinguagem}? Maneiro! E, depois disso, você vai continuar se aprofundando na área e se tornar um dev ${escolhaArea}(1), ou pretende estudar ${escolhaOutra} e se tornar um dev Full-Stack(2)?`);
@@ -53,6 +50,7 @@ function decisoes () {
         alert('Ótimo! Adquirir conhecimento em várias áreas e se tornar um generalista é uma ótima forma de se tornar indispensável! ;)');
     } else {
         alert(respostaInvalida);
+        return;
     }
 
     maisLinguagens = prompt('Tem mais alguma linguagem que você gostaria de aprender? Sim(1) | Não(2)');
@@ -60,7 +58,7 @@ function decisoes () {
     while (maisLinguagens == 1) {
         outraLinguagem = prompt('Me conta, então, qual é?');
         alert(`Ah, ${outraLinguagem} é muito útil! Tenho certeza que vai ser uma ótima adição ao seu repertório. :D`);
-        maisLinguagens = prompt('Tem mais alguma linguagem que você gostaria de aprender?');
+        maisLinguagens = prompt('Tem mais alguma linguagem que você gostaria de aprender? Sim(1) | Não(2)');
     }
 
     alert(`Foi um prazer conversar com você, ${nomeUsuario}! Até a próxima. ;)`)
