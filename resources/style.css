@@ -1,36 +1,53 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    min-width: max-content;
+    margin: 0 auto;
 }
 
 /* Header */
     header {
         background-color: #f0f0f0;
         text-align: center;
-        margin: auto;
-        padding: 1em 0;
+        padding: 1em 0.5em;
+        font-weight: bold;
     }
 
     .titulo {
-         font-size: 1.8em;
-         font-weight: bolder;
-         margin-bottom: 0.3em;
-    }
+        font-size: 1.8em;
+        font-weight: bolder;
+        }
 
     .subtitulo {
         font-size: 1.2em;
-        margin-bottom: 0.3em;
-        font-weight: bold;
     }
 
     .descricao {
         font-size: 1.1em;
-        margin-bottom: 0.3em;
-        font-weight: bold;
     }
 
-    .lista_dias {
-        margin-top: 1em;
+
+/* Main */
+    main {
+        width: 350px;
+        margin: 0 auto;
         padding: 0 0.5em;
+    }
+
+    .titulo_conteudo {
+        font-size: 1.2em;
+        margin: 1em 0;
+    }
+
+    .subtitulo_conteudo {
+        margin-bottom: 1em;
+    }
+
+
+/* Index */
+    .lista_dias {
+        width: 350px;
+        margin: 1em auto;
+        text-align: left;
     }
 
     .dia {
@@ -39,18 +56,13 @@ body {
 
 
 /* Dia 1 - Operações Booleanas */
-    .titulo_conteudo {
-        font-size: 1.2em;
-        margin: 1em 0;
-        padding: 0 0.5em;
-    }
-
-    .subtitulo_conteudo {
-        margin-bottom: 1em;
-        padding: 0 0.5em;
-    }
-
     .numero {
         margin-bottom: 0.5em;
-        padding: 0 0.5em;
+        font-size: 0.94em;
+    }
+
+/* Dia 2 - Variáveis */
+    .iniciar {
+        width: 350px;
+        margin: 0 auto 1em;
     }
