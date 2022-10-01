@@ -29,7 +29,7 @@ function listaDeCompras () {
             document.querySelector('.laticinios').innerHTML = 'Laticínios: ' + listaLaticinios + '.';
         } else if (dicionario['congelados'].includes(buscaItem)) {
             listaCongelados.push(' ' + novoItem);
-            document.querySelector('.congelados').innerHTML = 'Congelaods: ' + listaCongelados + '.';
+            document.querySelector('.congelados').innerHTML = 'Congelados: ' + listaCongelados + '.';
         } else if (dicionario['doces'].includes(buscaItem)) {
             listaDoces.push(' ' + novoItem);
             document.querySelector('.doces').innerHTML = 'Doces: ' + listaDoces + '.';
