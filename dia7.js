@@ -14,9 +14,12 @@ const teclaDivi = document.querySelector('.divide');
 for (let digito of listaDeTeclas) {
     digito.onclick = function () {
         if (digito.classList.contains('digito')) {
+            if (calcDisplay.textContent.search('=') != -1) {
+                calcDisplay.textContent = '';
+            };
             calcDisplay.append(digito.textContent);
         } else if (digito.classList.contains('operacao')) {
-            console.log('it workss!');
+            console.log(digito.textContent);
         };
     };
 };
