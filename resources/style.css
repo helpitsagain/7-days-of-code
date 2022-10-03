@@ -84,3 +84,32 @@ a:active {
         width: 350px;
         margin: 0 auto 1em;
     }
+
+/* Dia 7 - Calculadora */
+    .input_numeros {
+        width: 100%;
+        height: 2em;
+    }
+
+    .calc_botoes {
+        display: inline-block;
+        margin: 1em auto;
+    }
+
+    .tecla {
+        margin: 0 0 0.5em;
+        width: 32.5%;
+        height: 3em;
+    }
+
+    .tecla_0 {
+        width: 61%;
+    }
+    
+    .tecla_del {
+        font-weight: bolder;
+    }
+
+    .tecla_limpar {
+        width: 100%;
+    }
